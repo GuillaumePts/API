@@ -1,0 +1,13 @@
+petit lac de tosny : 49.224330, 1.381556 //
+
+moyen lac de tosny : 49.222608, 1.382537 //
+
+grand lac de tosny : 49.229297, 1.389577 //
+
+mousseaux : 49.198521, 1.352703 //
+
+lac de Bouafle : 49.205201, 1.368801 //
+
+Marais Courcelle : 49.190051, 1.348561 //
+
+lac Bernière: 49.234714, 1.337335 //

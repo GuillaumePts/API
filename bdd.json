@@ -1,0 +1,64 @@
+[
+    {
+        "id": 1,
+        "name":"Parking 1",
+        "type": "AIRPORT",
+        "city": "ROISSY EN FRANCE"
+    },
+    {
+        "id": 2,
+        "name":"Petit Marais",
+        "type": "marais",
+        "city": "Courcelles sur Seine",
+        "itineraire": "49.190051 , 1.348561",
+        "carnassier": "5/10",
+        "blanc": "8/10",
+        "herbier" : "2/10",
+        "popCarna" : {
+
+            "brochet": "5/10",
+            "sandre": "8/10",
+            "perche": "5/10",
+            "anguille":"3/10",
+            "perche soleil":"7/10"
+
+        },
+        "popBlanc":{
+            "carpe": "8/10",
+            "breme": "70%",
+            "carassin": "50%",
+            "gardon": "100%"
+        },
+        "info": "Petit Marais avec peu de fond, pendant l'été la hauteur peu descendre vers les 30cm dans les points les plus profond. Enormément d'herbier, il faut au minumum des bottes. Des beaux sandres sont présents, il y avait des brochets mais plus vu depuis un moment, les perches sont petites difficiles à prendre. Pour les blancs, les gardons sont très présents, il y à quelques brèmes et carassins. De belles Carpes aussi mais imprennable elles sont intéressé par rien et passe leurs temps à fouiller dans les herbier  "
+    },
+    {
+        "id": 3,
+        "name":"Parking 3",
+        "type": "AIRPORT",
+        "city": "ORLY"
+    },
+    {
+        "id": 4,
+        "name":"Parking 4",
+        "type": "AIRPORT",
+        "city": "NICE"
+    },
+    {
+        "id": 5,
+        "name":"Parking 5",
+        "type": "AIRPORT",
+        "city": "LILLE"
+    },
+    {
+        "id": 6,
+        "name":"Parking 6",
+        "type": "lmskc",
+        "city": "LILLE"
+    },
+    {
+        "id": 7,
+        "name":"Parking 7",
+        "type": "A",
+        "city": "LILE"
+    }
+]
