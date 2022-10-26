@@ -3,9 +3,13 @@ const app = express()
 const test = require('./bdd.json')
 const path = require('path')
 const fs = require('fs')
+const https = require("https");
 	
 
-
+const options = {
+    key: fs.readFileSync("server.key"),
+    cert: fs.readFileSync("server.cert"),
+  };
 
 
 app.use(express.static(__dirname + '/public'));
@@ -30,6 +34,11 @@ app.get('/lac/:id', (req, res) => {
 
 
 
-app.listen(9999,  () => {
-    console.log('Serveur à l\'écoute : http://localhost:9999')
-})
+// app.listen(9999,  () => {
+//     console.log('Serveur à l\'écoute : http://localhost:9999')
+// })
+
+https.createServer(options, app)
+.listen(9999, function (req, res) {
+  console.log("Server started at port 9999");
+});
