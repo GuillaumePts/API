@@ -1,30 +1,50 @@
 [
     {
         "id": 1,
-        "name":"Parking 1",
-        "type": "AIRPORT",
-        "city": "ROISSY EN FRANCE"
+        "name":"Lac de Bouafle",
+        "type": "lac",
+        "city": "Bouafle",
+        "gps": "49.205201, 1.368801",
+        "carnassier": "50%",
+        "blanc": "80%",
+        "herbier" : "20%",
+        "popCarna" : {
+
+            "brochet": "50%",
+            "sandre": "80%",
+            "perche": "50%",
+            "anguille":"30%",
+            "perche soleil":"70%"
+
+        },
+        "popBlanc":{
+            "carpe": "80%",
+            "breme": "70%",
+            "carassin": "50%",
+            "gardon": "100%"
+        },
+        "info": "id 1"
     },
     {
         "id": 2,
         "name":"Petit Marais",
         "type": "marais",
         "city": "Courcelles sur Seine",
-        "itineraire": "49.190051 , 1.348561",
-        "carnassier": "5/10",
-        "blanc": "8/10",
-        "herbier" : "2/10",
+        "gps": "49.190051 , 1.348561",
+        "carnassier": "50%",
+        "blanc": "80%",
+        "herbier" : "20%",
         "popCarna" : {
 
-            "brochet": "5/10",
-            "sandre": "8/10",
-            "perche": "5/10",
-            "anguille":"3/10",
-            "perche soleil":"7/10"
+            "brochet": "50%",
+            "sandre": "80%",
+            "perche": "50%",
+            "anguille":"30%",
+            "perche soleil":"70%"
 
         },
         "popBlanc":{
-            "carpe": "8/10",
+            "carpe": "80%",
             "breme": "70%",
             "carassin": "50%",
             "gardon": "100%"
@@ -33,32 +53,131 @@
     },
     {
         "id": 3,
-        "name":"Parking 3",
-        "type": "AIRPORT",
-        "city": "ORLY"
+        "name":"Petit lac de Tosny",
+        "type": "lac",
+        "city": "Tosny",
+        "gps": "49.224330, 1.381556",
+        "carnassier": "50%",
+        "blanc": "80%",
+        "herbier" : "20%",
+        "popCarna" : {
+
+            "brochet": "50%",
+            "sandre": "80%",
+            "perche": "50%",
+            "anguille":"30%",
+            "perche soleil":"70%"
+
+        },
+        "popBlanc":{
+            "carpe": "80%",
+            "breme": "70%",
+            "carassin": "50%",
+            "gardon": "100%"
+        },
+        "info": "id 3"
     },
-    {
-        "id": 4,
-        "name":"Parking 4",
-        "type": "AIRPORT",
-        "city": "NICE"
+    {"id": 4,
+    "name":"Etang paradis",
+    "type": "Etang",
+    "city": "Tosny",
+    "gps": "49.222608, 1.382537",
+    "carnassier": "50%",
+    "blanc": "80%",
+    "herbier" : "20%",
+    "popCarna" : {
+
+        "brochet": "50%",
+        "sandre": "80%",
+        "perche": "50%",
+        "anguille":"30%",
+        "perche soleil":"70%"
+
+    },
+    "popBlanc":{
+        "carpe": "80%",
+        "breme": "70%",
+        "carassin": "50%",
+        "gardon": "100%"
+    },
+    "info": "id 4"
     },
     {
         "id": 5,
-        "name":"Parking 5",
-        "type": "AIRPORT",
-        "city": "LILLE"
+    "name":"Etang drakkar",
+    "type": "Etang",
+    "city": "Tosny",
+    "gps": "49.229297, 1.389577",
+    "carnassier": "50%",
+    "blanc": "80%",
+    "herbier" : "20%",
+    "popCarna" : {
+
+        "brochet": "50%",
+        "sandre": "80%",
+        "perche": "50%",
+        "anguille":"30%",
+        "perche soleil":"70%"
+
+    },
+    "popBlanc":{
+        "carpe": "80%",
+        "breme": "70%",
+        "carassin": "50%",
+        "gardon": "100%"
+    },
+    "info": "id 5"
     },
     {
         "id": 6,
-        "name":"Parking 6",
-        "type": "lmskc",
-        "city": "LILLE"
+        "name":"Lac Mousseaux",
+        "type": "Lac",
+        "city": "Bouafle",
+        "gps": "49.198521, 1.352703",
+        "carnassier": "50%",
+        "blanc": "80%",
+        "herbier" : "20%",
+        "popCarna" : {
+    
+            "brochet": "50%",
+            "sandre": "80%",
+            "perche": "50%",
+            "anguille":"30%",
+            "perche soleil":"70%"
+    
+        },
+        "popBlanc":{
+            "carpe": "80%",
+            "breme": "70%",
+            "carassin": "50%",
+            "gardon": "100%"
+        },
+        "info": "id 6"
     },
     {
         "id": 7,
-        "name":"Parking 7",
-        "type": "A",
-        "city": "LILE"
+        "name":"Lac de Bernières",
+        "type": "Lac",
+        "city": "Bernières",
+        "gps": "49.234714, 1.337335",
+        "carnassier": "50%",
+        "blanc": "80%",
+        "herbier" : "20%",
+        "popCarna" : {
+    
+            "brochet": "50%",
+            "sandre": "80%",
+            "perche": "50%",
+            "anguille":"30%",
+            "perche soleil":"70%"
+    
+        },
+        "popBlanc":{
+            "carpe": "80%",
+            "breme": "70%",
+            "carassin": "50%",
+            "gardon": "100%"
+        },
+        "info": "id 7"
     }
 ]
