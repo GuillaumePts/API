@@ -1,28 +1,12 @@
-// Recup document
-// const name = document.querySelector('#name')
-// const type = document.querySelector('#type')
-// const city = document.querySelector('#city')
-// const gps = document.querySelector('#gps')
-// const carna = document.querySelector('#carna')
-// const ulcarna = document.querySelector('#lescarnas')
-// const blanc = document.querySelector('#pblanc')
-// const ulblanc = document.querySelector('#lesblancs')
-// const info = document.querySelector('#lesinfos')
-
-
-
-
-
-
-
 // GEOLOCALISATION
 
 
 // Au chargement de la page l'appli lance la function coordonnees
 document.addEventListener('DOMContentLoaded', function () {
-  
+
     navigator.geolocation.getCurrentPosition(coordonnees)
 });
+
 
 
 
@@ -72,6 +56,38 @@ function coordonnees(pos) {
 
 
 
+    var popup = L.popup();
+
+function onMapClick(e) {
+    popup
+        .setLatLng(e.latlng)
+        .setContent("Ya rien ici connard " /*+ e.latlng.toString()*/)
+        .openOn(map);
+}
+
+
+
+
+map.on('click', onMapClick);
+
+
+// var satellite = L.tileLayer(mapboxUrl, {id: 'MapID', tileSize: 512, zoomOffset: -1, attribution: mapboxAttribution});
+
+
+googleSat = L.tileLayer('http://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}',{
+    maxZoom: 20,
+    subdomains:['mt0','mt1','mt2','mt3']
+});
+
+let visual = {
+    "satellite": googleSat,
+    "normal": osmLayer
+}
+
+
+var layerControl = L.control.layers(visual).addTo(map);
+
+map.addLayer(layerControl)
 }
 
 
@@ -80,19 +96,11 @@ function coordonnees(pos) {
 // API 
 function recupApi(id) {
 
-    document.querySelector('#map').style.width = '70%'
-    document.querySelector('#info').style.display = 'grid'
-
-
+    
 
     fetch('/lac/' + id).then(res => res.json()).then((contenu) => {
 
-
-
         creatContenu(contenu)
-
-
-
     })
 
 
@@ -111,6 +119,20 @@ function createMarker(latitude, longitude, name, id) {
 
 
     elt.addEventListener('click', () => {
+
+        document.querySelector('#info').style.opacity = 0
+
+        animeInfo()
+        setTimeout(() => {
+            document.querySelector('#info').style.opacity = 1
+        }, 100);
+
+
+        
+        
+        
+
+
         recupApi(id)
     })
 
@@ -123,16 +145,41 @@ function createMarker(latitude, longitude, name, id) {
 function creatContenu(x) {
 
     // Recup document
-    document.querySelector('#name').textContent=x.name
-    document.querySelector('#type').textContent=x.type
-    document.querySelector('#city').textContent=x.city
-    document.querySelector('#gps').href="https://www.google.com/maps/place/"+x.gps 
-    document.querySelector('#carna').textContent=x.carnassier
-    document.querySelector('#lescarnas').textContent= "fais ta boucle"
-    document.querySelector('#pblanc').textContent=x.blanc
-    document.querySelector('#lesblancs').textContent= "fais ta boucle"
-    document.querySelector('#lesinfos').textContent=x.info
-
-
+    document.querySelector('#name').textContent = x.name
+    document.querySelector('#type').textContent = x.type
+    document.querySelector('#city').textContent = x.city
+    document.querySelector('#gps').href = "https://www.google.com/maps/place/" + x.gps
+    document.querySelector('#carna').textContent = x.carnassier
+    
+    
+    let c = x.popCarna
+    c.forEach(el => {
+        li('lescarnas', el)
+    });
+    
+    document.querySelector('#pblanc').textContent = x.blanc
+    
+    let b = x.popBlanc
+    b.forEach(el => {
+        li('lesblancs', el)
+    });
+    document.querySelector('#lesinfos').textContent = x.info
 
 }
+
+function animeInfo(){
+    document.querySelector('#map').style.width = '70%'
+    document.querySelector('#info').style.visibility = 'visible'
+    document.querySelector('#info').style.width = '30%'
+   
+}
+
+
+function li(html, valeur){
+    let ul = document.querySelector('#'+html)
+    let li = document.createElement('li')
+    li.textContent=valeur
+    ul.appendChild(li)
+}
+
+

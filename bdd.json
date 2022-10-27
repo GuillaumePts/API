@@ -1,183 +1,253 @@
-[
-    {
+[{
         "id": 1,
-        "name":"Lac de Bouafle",
+        "name": "Lac de Bouafle",
         "type": "lac",
         "city": "Bouafle",
         "gps": "49.205201, 1.368801",
         "carnassier": "50%",
         "blanc": "80%",
-        "herbier" : "20%",
-        "popCarna" : {
+        "herbier": "20%",
+        "popCarna": [
 
-            "brochet": "50%",
-            "sandre": "80%",
-            "perche": "50%",
-            "anguille":"30%",
-            "perche soleil":"70%"
 
-        },
-        "popBlanc":{
-            "carpe": "80%",
-            "breme": "70%",
-            "carassin": "50%",
-            "gardon": "100%"
-        },
+            "brochet 50%",
+
+            "sandre  80%",
+
+            "perche  50%",
+
+            "anguille  30%",
+
+            "perche soleil  70%"
+
+
+        ],
+        "popBlanc": [
+            "carpe  80%",
+
+            "breme  70%",
+
+            "carassin  50%",
+
+            "gardon  100%"
+
+        ],
         "info": "id 1"
     },
     {
         "id": 2,
-        "name":"Petit Marais",
+        "name": "Petit Marais",
         "type": "marais",
         "city": "Courcelles sur Seine",
         "gps": "49.190051 , 1.348561",
         "carnassier": "50%",
         "blanc": "80%",
-        "herbier" : "20%",
-        "popCarna" : {
+        "herbier": "20%",
+        "popCarna": [
 
-            "brochet": "50%",
-            "sandre": "80%",
-            "perche": "50%",
-            "anguille":"30%",
-            "perche soleil":"70%"
 
-        },
-        "popBlanc":{
-            "carpe": "80%",
-            "breme": "70%",
-            "carassin": "50%",
-            "gardon": "100%"
-        },
+            "brochet 50%",
+
+            "sandre  80%",
+
+            "perche  50%",
+
+            "anguille  30%",
+
+            "perche soleil  70%"
+
+
+        ],
+        "popBlanc": [
+            "carpe  80%",
+
+            "breme  70%",
+
+            "carassin  50%",
+
+            "gardon  100%"
+
+        ],
         "info": "Petit Marais avec peu de fond, pendant l'été la hauteur peu descendre vers les 30cm dans les points les plus profond. Enormément d'herbier, il faut au minumum des bottes. Des beaux sandres sont présents, il y avait des brochets mais plus vu depuis un moment, les perches sont petites difficiles à prendre. Pour les blancs, les gardons sont très présents, il y à quelques brèmes et carassins. De belles Carpes aussi mais imprennable elles sont intéressé par rien et passe leurs temps à fouiller dans les herbier  "
     },
     {
         "id": 3,
-        "name":"Petit lac de Tosny",
+        "name": "Petit lac de Tosny",
         "type": "lac",
         "city": "Tosny",
         "gps": "49.224330, 1.381556",
         "carnassier": "50%",
         "blanc": "80%",
-        "herbier" : "20%",
-        "popCarna" : {
+        "herbier": "20%",
+        "popCarna": [
 
-            "brochet": "50%",
-            "sandre": "80%",
-            "perche": "50%",
-            "anguille":"30%",
-            "perche soleil":"70%"
 
-        },
-        "popBlanc":{
-            "carpe": "80%",
-            "breme": "70%",
-            "carassin": "50%",
-            "gardon": "100%"
-        },
+            "brochet 50%",
+
+            "sandre  80%",
+
+            "perche  50%",
+
+            "anguille  30%",
+
+            "perche soleil  70%"
+
+
+        ],
+        "popBlanc": [
+            "carpe  80%",
+
+            "breme  70%",
+
+            "carassin  50%",
+
+            "gardon  100%"
+
+        ],
         "info": "id 3"
     },
-    {"id": 4,
-    "name":"Etang paradis",
-    "type": "Etang",
-    "city": "Tosny",
-    "gps": "49.222608, 1.382537",
-    "carnassier": "50%",
-    "blanc": "80%",
-    "herbier" : "20%",
-    "popCarna" : {
+    {
+        "id": 4,
+        "name": "Etang paradis",
+        "type": "Etang",
+        "city": "Tosny",
+        "gps": "49.222608, 1.382537",
+        "carnassier": "50%",
+        "blanc": "80%",
+        "herbier": "20%",
+        "popCarna": [
 
-        "brochet": "50%",
-        "sandre": "80%",
-        "perche": "50%",
-        "anguille":"30%",
-        "perche soleil":"70%"
 
-    },
-    "popBlanc":{
-        "carpe": "80%",
-        "breme": "70%",
-        "carassin": "50%",
-        "gardon": "100%"
-    },
-    "info": "id 4"
+            "brochet 50%",
+
+            "sandre  80%",
+
+            "perche  50%",
+
+            "anguille  30%",
+
+            "perche soleil  70%"
+
+
+        ],
+        "popBlanc": [
+            "carpe  80%",
+
+            "breme  70%",
+
+            "carassin  50%",
+
+            "gardon  100%"
+
+        ],
+        "info": "id 4"
     },
     {
         "id": 5,
-    "name":"Etang drakkar",
-    "type": "Etang",
-    "city": "Tosny",
-    "gps": "49.229297, 1.389577",
-    "carnassier": "50%",
-    "blanc": "80%",
-    "herbier" : "20%",
-    "popCarna" : {
+        "name": "Etang drakkar",
+        "type": "Etang",
+        "city": "Tosny",
+        "gps": "49.229297, 1.389577",
+        "carnassier": "50%",
+        "blanc": "80%",
+        "herbier": "20%",
+        "popCarna": [
 
-        "brochet": "50%",
-        "sandre": "80%",
-        "perche": "50%",
-        "anguille":"30%",
-        "perche soleil":"70%"
 
-    },
-    "popBlanc":{
-        "carpe": "80%",
-        "breme": "70%",
-        "carassin": "50%",
-        "gardon": "100%"
-    },
-    "info": "id 5"
+            "brochet 50%",
+
+            "sandre  80%",
+
+            "perche  50%",
+
+            "anguille  30%",
+
+            "perche soleil  70%"
+
+
+        ],
+        "popBlanc": [
+            "carpe  80%",
+
+            "breme  70%",
+
+            "carassin  50%",
+
+            "gardon  100%"
+
+        ],
+        "info": "id 5"
     },
     {
         "id": 6,
-        "name":"Lac Mousseaux",
+        "name": "Lac Mousseaux",
         "type": "Lac",
         "city": "Bouafle",
         "gps": "49.198521, 1.352703",
         "carnassier": "50%",
         "blanc": "80%",
-        "herbier" : "20%",
-        "popCarna" : {
-    
-            "brochet": "50%",
-            "sandre": "80%",
-            "perche": "50%",
-            "anguille":"30%",
-            "perche soleil":"70%"
-    
-        },
-        "popBlanc":{
-            "carpe": "80%",
-            "breme": "70%",
-            "carassin": "50%",
-            "gardon": "100%"
-        },
+        "herbier": "20%",
+        "popCarna": [
+
+
+            "brochet 50%",
+
+            "sandre  80%",
+
+            "perche  50%",
+
+            "anguille  30%",
+
+            "perche soleil  70%"
+
+
+        ],
+        "popBlanc": [
+            "carpe  80%",
+
+            "breme  70%",
+
+            "carassin  50%",
+
+            "gardon  100%"
+
+        ],
         "info": "id 6"
     },
     {
         "id": 7,
-        "name":"Lac de Bernières",
+        "name": "Lac de Bernières",
         "type": "Lac",
         "city": "Bernières",
         "gps": "49.234714, 1.337335",
         "carnassier": "50%",
         "blanc": "80%",
-        "herbier" : "20%",
-        "popCarna" : {
-    
-            "brochet": "50%",
-            "sandre": "80%",
-            "perche": "50%",
-            "anguille":"30%",
-            "perche soleil":"70%"
-    
-        },
-        "popBlanc":{
-            "carpe": "80%",
-            "breme": "70%",
-            "carassin": "50%",
-            "gardon": "100%"
-        },
+        "herbier": "20%",
+        "popCarna": [
+
+
+            "brochet 50%",
+
+            "sandre  80%",
+
+            "perche  50%",
+
+            "anguille  30%",
+
+            "perche soleil  70%"
+
+
+        ],
+        "popBlanc": [
+            "carpe  80%",
+
+            "breme  70%",
+
+            "carassin  50%",
+
+            "gardon  100%"
+
+        ],
         "info": "id 7"
     }
 ]

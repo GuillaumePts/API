@@ -14,16 +14,16 @@
 }
 
 #map{
-    width: 100%;
+    width: 90%;
     height: 90vh;
 }
 
 #info{
-    
-    width: 30%;
+    display: grid;
+    width: 0;
     background-color: rgb(255, 255, 255);
     height: 90vh;
-    display: none;
+    visibility: hidden;
     grid-template-columns: 1fr;
     grid-template-rows: auto 1fr auto ;
     grid-template-areas: 
@@ -31,6 +31,8 @@
     'main'
     'footer';
     border: 1px solid green;
+    opacity: 0;
+    transition:  0.1s linear ;
     
 }
 
